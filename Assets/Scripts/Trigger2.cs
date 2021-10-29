@@ -6,6 +6,10 @@ public class Trigger2 : MonoBehaviour
 {
     public AudioSource soundToPlay;
 
+    private void Start()
+    {
+        
+    }
     void OnTriggerEnter(Collider other)
     {
         soundToPlay.Play();
